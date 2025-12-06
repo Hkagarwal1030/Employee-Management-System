@@ -14,6 +14,7 @@ A simple and efficient Employee Entry & Listing System built using PHP, MySQL, a
 This system allows users to add employee details, store them in a database, and auto-display all saved entries in a formatted table.
 
 ✨ Features
+
 ✔ Employee Entry Form
 
 Full Name
@@ -44,17 +45,21 @@ Form + table layout
 
 Real-time rendering of inserted data
 
+
 📂 Project Structure
 /employee-management
 │── index.php
 │── README.md
 
+
 🛠️ Technology Stack
-Technology	Purpose
-PHP	Backend logic & request handling
-MySQL	Database for storing employee records
-HTML	UI markup
+Technology    	            Purpose
+PHP	                    Backend logic & request handling
+MySQL	                Database for storing employee records
+HTML	                UI markup
 CSS (inline/optional)	Styling the UI
+
+
 🗄️ Database Setup
 
 Run the following SQL queries in phpMyAdmin or MySQL CLI:
@@ -71,6 +76,8 @@ CREATE TABLE employees (
     position VARCHAR(150),
     joining_date DATE
 );
+
+
 
 🚀 How to Run the Project
 1️⃣ Move files into your local server directory
@@ -99,11 +106,15 @@ Fill the form → Submit → Data gets saved into database.
 
 Inserted employees appear in the table below the form.
 
+
+
 🔒 Security Notes
 
 Uses prepared statements for safe SQL insertion
 
 Should be deployed only in controlled environments unless enhanced with authentication
+
+
 
 📌 Future Enhancements
 
@@ -117,6 +128,8 @@ Add admin login / authentication
 
 Convert to MVC structure
 
+
+
 🤝 Contributing
 
 Feel free to fork, improve, and make pull requests.
@@ -128,6 +141,8 @@ Create a new branch
 Commit your changes
 
 Open a PR
+
+
 
 📄 License
 
